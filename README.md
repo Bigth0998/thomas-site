@@ -5,54 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrinho - Educação e Sustentabilidade</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
+
+    <!-- Barra de Navegação -->
     <header>
-        <div class="logo">
-            <img src="logo-agrinho.png" alt="Logo Agrinho">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Programas</a></li>
-                <li><a href="#">Contato</a></li>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo-agrinho.png" alt="Logo Agrinho">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    
-    <section class="hero">
-        <h1>Bem-vindo ao Agrinho</h1>
-        <p>O Agrinho é um programa educacional que visa transformar o futuro da agricultura por meio da educação, sustentabilidade e inovação.</p>
+
+    <!-- Seção de Boas-Vindas -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Agrinho</h1>
+            <p>Transformando a agricultura do futuro através da educação e sustentabilidade.</p>
+            <a href="#programas" class="btn">Saiba Mais</a>
+        </div>
     </section>
 
-    <section class="sobre">
-        <h2>Sobre o Agrinho</h2>
-        <p>O Agrinho é uma iniciativa que busca envolver crianças e jovens do campo com práticas educativas que promovem o desenvolvimento sustentável, o uso consciente dos recursos naturais e a valorização do agronegócio.</p>
-    </section>
-
-    <section class="programas">
-        <h2>Nossos Programas</h2>
-        <ul>
-            <li>Educação Ambiental</li>
-            <li>Formação para Jovens Agricultores</li>
-            <li>Promoção da Sustentabilidade no Campo</li>
-        </ul>
-    </section>
-
-    <section class="contato">
-        <h2>Contato</h2>
-        <p>Quer saber mais sobre o Agrinho ou participar dos nossos programas? Entre em contato conosco!</p>
-        <form>
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu email" required>
-            <textarea placeholder="Sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+    <!-- Seção "Sobre" -->
+    <section id="sobre" class="about">
+        <div class="about-content">
+            <h2>Sobre o Agrinho</h2>
+            <p>O Agrinho é um programa educacional que visa integrar a educação ambiental com práticas sustentáveis, capacitando jovens
