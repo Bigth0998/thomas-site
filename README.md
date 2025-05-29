@@ -1,99 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Educação e Sustentabilidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-agrinho.png" alt="Logo Agrinho">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Programas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Bem-vindo ao Agrinho</h1>
+        <p>O Agrinho é um programa educacional que visa transformar o futuro da agricultura por meio da educação, sustentabilidade e inovação.</p>
+    </section>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    <section class="sobre">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho é uma iniciativa que busca envolver crianças e jovens do campo com práticas educativas que promovem o desenvolvimento sustentável, o uso consciente dos recursos naturais e a valorização do agronegócio.</p>
+    </section>
 
-header {
-    background-color: #4CAF50;
-    padding: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    <section class="programas">
+        <h2>Nossos Programas</h2>
+        <ul>
+            <li>Educação Ambiental</li>
+            <li>Formação para Jovens Agricultores</li>
+            <li>Promoção da Sustentabilidade no Campo</li>
+        </ul>
+    </section>
 
-header .logo img {
-    width: 100px;
-}
+    <section class="contato">
+        <h2>Contato</h2>
+        <p>Quer saber mais sobre o Agrinho ou participar dos nossos programas? Entre em contato conosco!</p>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.hero {
-    background-color: #87C232;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.sobre, .programas, .contato {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1000px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.sobre h2, .programas h2, .contato h2 {
-    color: #4CAF50;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #45a049;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    <footer>
+        <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
